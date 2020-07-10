@@ -39,5 +39,7 @@ def sum_array(addition)
 end
 
 def add_s(plural)
-  plural.each_with_index {|element, index| if index != 1 element << s}
+  plural.each_with_index do |element, index|
+    if index != 1
+      return element << s
 end
