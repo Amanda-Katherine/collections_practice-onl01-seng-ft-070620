@@ -15,4 +15,5 @@ end
 def swap_elements(change_up)
   change_up[1], change_up[2] = change_up[2], change_up[1]
   change_up
+  # don't forget to return the array back (what I'm doing in line 17) or else the indexes won't change
 end
