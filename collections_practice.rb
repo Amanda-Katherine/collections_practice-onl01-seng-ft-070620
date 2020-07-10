@@ -7,8 +7,5 @@ def sort_array_desc(decrease)
 end
 
 def sort_array_char_count(word)
-  word.length.sort
+  word.sort.length
 end
-
-
-  
