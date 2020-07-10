@@ -37,4 +37,7 @@ end
 def sum_array(addition)
   addition.inject {|sum, i| sum + i }
 end
-  
+
+def add_s(plural)
+  plural.each {|index| index[0] << s + index[1] + index[2..-1] << s}
+end
