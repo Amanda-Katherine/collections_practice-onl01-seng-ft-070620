@@ -17,3 +17,7 @@ def swap_elements(change_up)
   change_up #this is being returned...i.e. you don't need to write return before it.
   # don't forget to return the array back (what I'm doing in line 17) or else the indexes won't change
 end
+
+def reverse_array(esrever)
+  esrever.sort.reverse
+end
