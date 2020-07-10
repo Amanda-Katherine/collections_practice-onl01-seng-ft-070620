@@ -19,5 +19,5 @@ def swap_elements(change_up)
 end
 
 def reverse_array(esrever)
-  esrever.sort.reverse
+  esrever.reverse
 end
