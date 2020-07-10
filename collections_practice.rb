@@ -29,6 +29,5 @@ def kesha_maker(three)
 end
 
 def find_a(array)
-  array.each {|word| word.start_with?("a")}
-  array
+  array.each {|word| return if word.start_with?("a")}
 end
