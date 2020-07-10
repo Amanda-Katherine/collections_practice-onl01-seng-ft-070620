@@ -21,3 +21,7 @@ end
 def reverse_array(esrever)
   esrever.reverse
 end
+
+def kesha_maker(three)
+  three.each {|char| char[2] = $}
+end
