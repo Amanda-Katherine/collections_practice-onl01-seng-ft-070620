@@ -25,5 +25,5 @@ end
 def kesha_maker(three)
   #three.each {|char| char[2] = "$"}
   #you could also use the below
-  three.each {|char| char[0..1] + '$' + char[3..-1]}
+  three.each.collect {|char| char[0..1] + '$' + char[3..-1]}
 end
