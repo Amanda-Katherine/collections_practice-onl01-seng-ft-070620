@@ -30,4 +30,5 @@ end
 
 def find_a(array)
   array.each {|word| word.start_with?("a")}
+  array
 end
