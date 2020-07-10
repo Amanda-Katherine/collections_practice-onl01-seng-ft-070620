@@ -9,5 +9,5 @@ def sort_array_desc(decrease)
 end
 
 def sort_array_char_count(word)
-
+ word.sort {|a,b| a.length <=> b.length}
 end
