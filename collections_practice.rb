@@ -27,3 +27,6 @@ def kesha_maker(three)
   #you could also use the below....or you could create a new array, not use .collect, then shovel the below into the new array
   #three.each.collect {|char| char[0..1] + '$' + char[3..-1]}
 end
+
+def find_a(array)
+  array.each {|word| word.start_with?("a")}
