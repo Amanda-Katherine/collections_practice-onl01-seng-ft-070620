@@ -3,10 +3,11 @@ def sort_array_asc(increase)
 end
 
 def sort_array_desc(decrease)
-  decrease.sort.reverse
+  #decrease.sort.reverse
+  # or you could do the below
+  decrease.sort {|a , b| b <=> a}
 end
 
 def sort_array_char_count(word)
-  count = [word.length]
-  count.sort
+
 end
