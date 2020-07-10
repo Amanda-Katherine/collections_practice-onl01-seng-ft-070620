@@ -11,3 +11,7 @@ end
 def sort_array_char_count(word)
  word.sort {|a,b| a.length <=> b.length}
 end
+
+def swap_elements(change_up)
+  change_up[1], change_up[2] = change_up[2], change_up[1]
+end
