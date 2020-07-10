@@ -29,6 +29,7 @@ def kesha_maker(three)
 end
 
 def find_a(array)
-  #array.select {|word| word.start_with? "a" }      #you could put () around "a" if you want
-  array.select {|word| word[0] == 'a' }
+  array.select {|word| word.start_with? "a" }      #you could put () around "a" if you want
+  #the below works as well
+  #array.select {|word| word[0] == 'a' }
 end
