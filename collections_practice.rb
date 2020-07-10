@@ -42,4 +42,5 @@ def add_s(plural)
   plural.each_with_index do |element, index|
     if index != 1
       return element << s
+    end
 end
