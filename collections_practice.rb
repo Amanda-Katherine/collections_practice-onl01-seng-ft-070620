@@ -33,3 +33,8 @@ def find_a(array)
   #the below works as well
   #array.select {|word| word[0] == 'a' }
 end
+
+def sum_array(addition)
+  addition.inject {|sum, i| sum + i }
+end
+  
